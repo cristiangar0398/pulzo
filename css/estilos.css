@@ -1,0 +1,242 @@
+@charset "UTF-8";
+header .btn-ham {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 50px;
+  border-radius: 50%;
+  right: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 1px 10px #000;
+  z-index: 100;
+}
+header nav {
+  width: 100%;
+  padding-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  overflow-x: auto;
+  transition: all ease 1s;
+}
+header nav header::-webkit-scrollbar {
+  width: 0;
+}
+header nav .logo img {
+  padding-top: 50px;
+  margin: 0px 10px;
+  width: 110px;
+}
+header nav .container-story {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+}
+header nav .container-story .story {
+  padding: 10px;
+}
+header nav .container-story .story img {
+  width: 40px;
+  padding: 4px;
+  border: solid 2px #face05;
+  border-radius: 50px;
+}
+header nav .container-story .story p {
+  color: #fff;
+  margin: 0;
+}
+header .fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  transition: all 1s;
+}
+header .remove {
+  display: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+}
+body main .banner-news {
+  background-image: url("https://d2yoo3qu6vrk5d.cloudfront.net/images/20210302184812/director-de-la-policia-sobre-cuidar-borrachos-420x278.webp");
+  width: 100%;
+  height: 248px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-size: cover;
+  border-bottom: solid 6px #0d8956;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+}
+body main .banner-news div {
+  grid-row-start: 2;
+  padding-left: 25px;
+  height: 130px;
+  width: 80%;
+}
+body main .banner-news div h5 {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  padding-top: 10px;
+}
+body main .banner-news div p {
+  color: #fff;
+  font-size: 25px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+body main .section-news {
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-bottom: solid 2px #eaeaea;
+}
+body main .section-news .article-news {
+  display: flex;
+}
+body main .section-news .article-news img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+body main .section-news .article-news .text {
+  margin: 0px 20px;
+  border-bottom: solid 2px #eaeaea;
+}
+body main .section-news .article-news .text h6 {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #0d8956;
+}
+body main .section-news .article-news .text p {
+  margin: 0;
+  padding: 10px 0px;
+  font-size: 18px;
+  text-align: justify;
+  color: #000;
+}
+body main .banner-prime {
+  padding-top: 30px;
+  margin-top: 50px;
+  border-top: solid 2px #eaeaea;
+}
+body main .banner-prime .img {
+  background-image: url("https://d2e8t60l5xm2g3.cloudfront.net/pauta/Amazon+Diseño/Mobile_AMAZON.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 145px;
+}
+body main .banner-prime .img img {
+  margin-top: 120px;
+  height: 43px;
+  width: 140px;
+  float: left;
+}
+body main .conte-prime {
+  width: 100%;
+  height: 210px;
+  padding-top: 30px;
+}
+body main .conte-prime span {
+  display: flex;
+  justify-content: center;
+  color: #0d8956;
+}
+body main .conte-prime h5 {
+  margin: auto;
+  padding-top: 10px;
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+}
+body main .conte-prime p {
+  margin: auto;
+  padding-top: 10px;
+  width: 90%;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer {
+  width: auto;
+  height: 320px;
+  padding: 20px;
+  background-color: #222;
+  border-top: solid 6px #0d8956;
+}
+footer .title {
+  display: flex;
+}
+footer .title img {
+  width: 45px;
+  margin-right: 10px;
+}
+footer .title h2 {
+  color: #fff;
+  font-size: 23px;
+}
+footer .carousel-container {
+  display: flex;
+  overflow-x: auto;
+}
+footer .carousel-container .container {
+  width: 250px;
+  height: 270px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+footer .carousel-container .container .img {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("https://d2yoo3qu6vrk5d.cloudfront.net/images/20210301005112/gettyimages-1280087572-420x278.jpg");
+  width: 250px;
+  height: 170px;
+}
+footer .carousel-container .container .img .indicator {
+  display: flex;
+  width: 82px;
+  height: 20px;
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 3px;
+  padding: 2px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+footer .carousel-container .container .img .indicator img {
+  width: 20px;
+  margin-right: 3px;
+}
+footer .carousel-container .container .img .indicator p {
+  padding-top: 3px;
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+}
+footer .carousel-container .container h5 {
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+}
+footer .carousel-container::-webkit-scrollbar {
+  width: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

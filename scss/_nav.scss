@@ -1,0 +1,74 @@
+header {
+
+    .btn-ham{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px ;
+        bottom: 50px;
+        border-radius: 50%;
+        right: 50px;
+        background-color: $color-negro;
+        color: $color-blanco;
+        font-size: 25px;
+        text-align: center;
+        box-shadow: 0px 1px 10px $color-negro;
+        z-index: 100;
+    }
+
+    nav {
+        
+        width: 100%;
+        padding-top: 110px;
+        display: flex;
+        justify-content: space-between;
+        background: $color-negro;
+        overflow-x: auto;
+        transition: all ease 1s;
+
+        header::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .logo {
+            img {
+                padding-top: 50px;
+                margin: 0px 10px ;
+                width: 110px;
+            }
+        }
+
+        .container-story {
+            padding-top: 30px;
+            width: 100%;
+            display: flex;
+            .story {
+                padding: 10px;
+                img {
+                    width: 40px;
+                    padding: 4px;
+                    border: solid 2px $color-borde;
+                    border-radius: 50px;
+                }
+                p {
+                    color: $color-blanco;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .fixed {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-top: 30px;
+        transition: all 1s;
+    }
+
+    .remove{
+        display: none;
+    }
+
+}
